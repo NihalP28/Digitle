@@ -1,30 +1,68 @@
-# Logs
-logs
-*.log
+# Node dependencies
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
+# Build output
+dist/
+dist-ssr/
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+# Vite cache
+.vite/
+vite.config.ts.timestamp-*
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Firebase cache and configs
+.firebase/
+.firebaserc
+.firebase-tools.json
+
+# Logs
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage results
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# TypeScript
 *.tsbuildinfo
+
+# Other OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
